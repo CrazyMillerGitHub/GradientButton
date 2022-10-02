@@ -21,16 +21,19 @@ final class ViewController: UIViewController {
         }
     }
 
-    let gradientOne = UIColor(red: 142/255, green: 45/255, blue: 226/255, alpha: 1).cgColor
-    let gradientThree = UIColor(red: 74/255, green: 0/255, blue: 224/255, alpha: 1).cgColor
+    private let palette: [CGColor] = [
+        UIColor(red: 142/255, green: 45/255, blue: 226/255, alpha: 1).cgColor,
+        UIColor(red: 74/255, green: 0/255, blue: 224/255, alpha: 1).cgColor
+    ]
 
     private lazy var button: UIButton = {
         let primaryAction: () -> Void = { [weak self] in
             self?.didTapButton()
         }
         let button = GradientButton(
-            palette: [gradientOne, gradientThree],
-            primaryAction: primaryAction
+            palette: palette,
+            primaryAction: primaryAction,
+            animated: true
         )
         button.setTitleColor(.white, for: .normal)
         button.setTitle(Constants.Button.title, for: .normal)
@@ -60,6 +63,6 @@ final class ViewController: UIViewController {
     }
 
     private func didTapButton() {
-        print(#function)
+        debugPrint(#function)
     }
 }
