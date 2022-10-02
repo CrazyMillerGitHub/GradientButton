@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7448B4EB28E8AAA1005C7820 /* GradientEffect.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7448B4EA28E8AAA1005C7820 /* GradientEffect.docc */; };
 		7448B4EC28E8AAA1005C7820 /* GradientEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 7448B4E928E8AAA1005C7820 /* GradientEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7448B4F928E8AABA005C7820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448B4F828E8AABA005C7820 /* AppDelegate.swift */; };
+		7448B4FB28E8AABA005C7820 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448B4FA28E8AABA005C7820 /* SceneDelegate.swift */; };
+		7448B4FD28E8AABA005C7820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448B4FC28E8AABA005C7820 /* ViewController.swift */; };
+		7448B50028E8AABA005C7820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7448B4FE28E8AABA005C7820 /* Main.storyboard */; };
+		7448B50228E8AABB005C7820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7448B50128E8AABB005C7820 /* Assets.xcassets */; };
+		7448B50528E8AABB005C7820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7448B50328E8AABB005C7820 /* LaunchScreen.storyboard */; };
+		7448B50E28E9AB0F005C7820 /* GradientEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7448B4E628E8AAA1005C7820 /* GradientEffect.framework */; };
+		7448B50F28E9AB0F005C7820 /* GradientEffect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7448B4E628E8AAA1005C7820 /* GradientEffect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7448B51428E9AB1E005C7820 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448B51328E9AB1E005C7820 /* GradientButton.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7448B51028E9AB0F005C7820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7448B4DD28E8AAA1005C7820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7448B4E528E8AAA1005C7820;
+			remoteInfo = GradientEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7448B51228E9AB0F005C7820 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7448B50F28E9AB0F005C7820 /* GradientEffect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7448B4E628E8AAA1005C7820 /* GradientEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GradientEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7448B4E928E8AAA1005C7820 /* GradientEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientEffect.h; sourceTree = "<group>"; };
-		7448B4EA28E8AAA1005C7820 /* GradientEffect.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GradientEffect.docc; sourceTree = "<group>"; };
+		7448B4F628E8AABA005C7820 /* GradientEffectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientEffectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7448B4F828E8AABA005C7820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7448B4FA28E8AABA005C7820 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7448B4FC28E8AABA005C7820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7448B4FF28E8AABA005C7820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7448B50128E8AABB005C7820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7448B50428E8AABB005C7820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7448B50628E8AABB005C7820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7448B51328E9AB1E005C7820 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7448B4F328E8AABA005C7820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7448B50E28E9AB0F005C7820 /* GradientEffect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -32,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				7448B4E828E8AAA1005C7820 /* GradientEffect */,
+				7448B4F728E8AABA005C7820 /* GradientEffectExample */,
 				7448B4E728E8AAA1005C7820 /* Products */,
+				7448B50D28E9AB0F005C7820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -40,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				7448B4E628E8AAA1005C7820 /* GradientEffect.framework */,
+				7448B4F628E8AABA005C7820 /* GradientEffectExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +99,30 @@
 			isa = PBXGroup;
 			children = (
 				7448B4E928E8AAA1005C7820 /* GradientEffect.h */,
-				7448B4EA28E8AAA1005C7820 /* GradientEffect.docc */,
+				7448B51328E9AB1E005C7820 /* GradientButton.swift */,
 			);
 			path = GradientEffect;
+			sourceTree = "<group>";
+		};
+		7448B4F728E8AABA005C7820 /* GradientEffectExample */ = {
+			isa = PBXGroup;
+			children = (
+				7448B4F828E8AABA005C7820 /* AppDelegate.swift */,
+				7448B4FA28E8AABA005C7820 /* SceneDelegate.swift */,
+				7448B4FC28E8AABA005C7820 /* ViewController.swift */,
+				7448B4FE28E8AABA005C7820 /* Main.storyboard */,
+				7448B50128E8AABB005C7820 /* Assets.xcassets */,
+				7448B50328E8AABB005C7820 /* LaunchScreen.storyboard */,
+				7448B50628E8AABB005C7820 /* Info.plist */,
+			);
+			path = GradientEffectExample;
+			sourceTree = "<group>";
+		};
+		7448B50D28E9AB0F005C7820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +157,25 @@
 			productReference = 7448B4E628E8AAA1005C7820 /* GradientEffect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7448B4F528E8AABA005C7820 /* GradientEffectExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7448B50728E8AABB005C7820 /* Build configuration list for PBXNativeTarget "GradientEffectExample" */;
+			buildPhases = (
+				7448B4F228E8AABA005C7820 /* Sources */,
+				7448B4F328E8AABA005C7820 /* Frameworks */,
+				7448B4F428E8AABA005C7820 /* Resources */,
+				7448B51228E9AB0F005C7820 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7448B51128E9AB0F005C7820 /* PBXTargetDependency */,
+			);
+			name = GradientEffectExample;
+			productName = GradientEffectExample;
+			productReference = 7448B4F628E8AABA005C7820 /* GradientEffectExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,9 +183,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					7448B4E528E8AAA1005C7820 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					7448B4F528E8AABA005C7820 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -113,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				7448B4E528E8AAA1005C7820 /* GradientEffect */,
+				7448B4F528E8AABA005C7820 /* GradientEffectExample */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +221,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7448B4F428E8AABA005C7820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7448B50528E8AABB005C7820 /* LaunchScreen.storyboard in Resources */,
+				7448B50228E8AABB005C7820 /* Assets.xcassets in Resources */,
+				7448B50028E8AABA005C7820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -132,11 +238,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7448B4EB28E8AAA1005C7820 /* GradientEffect.docc in Sources */,
+				7448B51428E9AB1E005C7820 /* GradientButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7448B4F228E8AABA005C7820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7448B4FD28E8AABA005C7820 /* ViewController.swift in Sources */,
+				7448B4F928E8AABA005C7820 /* AppDelegate.swift in Sources */,
+				7448B4FB28E8AABA005C7820 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7448B51128E9AB0F005C7820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7448B4E528E8AAA1005C7820 /* GradientEffect */;
+			targetProxy = 7448B51028E9AB0F005C7820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7448B4FE28E8AABA005C7820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7448B4FF28E8AABA005C7820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7448B50328E8AABB005C7820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7448B50428E8AABB005C7820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7448B4ED28E8AAA1005C7820 /* Debug */ = {
@@ -315,6 +458,64 @@
 			};
 			name = Release;
 		};
+		7448B50828E8AABB005C7820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GB4E68ZU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradientEffectExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsgnmike.GradientEffectExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7448B50928E8AABB005C7820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GB4E68ZU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradientEffectExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsgnmike.GradientEffectExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -332,6 +533,15 @@
 			buildConfigurations = (
 				7448B4F028E8AAA1005C7820 /* Debug */,
 				7448B4F128E8AAA1005C7820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7448B50728E8AABB005C7820 /* Build configuration list for PBXNativeTarget "GradientEffectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7448B50828E8AABB005C7820 /* Debug */,
+				7448B50928E8AABB005C7820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
